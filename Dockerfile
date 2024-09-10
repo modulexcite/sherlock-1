@@ -13,3 +13,4 @@ RUN pip3 install -r requirements.txt -f /wheels \
   && rm -rf /root/.cache/pip/*
 
 ENTRYPOINT ["python", "sherlock.py"]
+pipx install sherlock-project
